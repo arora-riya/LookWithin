@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Look Within | Community</title>
+    <link rel="icon" href="Images/favicon.png">
+
+    <link href="CSS/style.css" rel="stylesheet">
+    <link href="CSS/tools.css" rel="stylesheet">
+    <link href="CSS/community.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header id="header-for-bg">
+
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav id="navbar">
+
+        <div id="logo">
+            <a href="/">
+                <img src="/Images/navbar_image.png">
+            </a>
+        </div>
+
+        <ul id="tabs">
+            <li class="tab">
+                <a href="/">
+                    HOME
+                </a>
+            </li>
+            <li class="tab">
+                <a href="/resources">
+                    RESOURCES
+                </a>
+            </li>
+            <li class="tab">
+                <a href="/tools">
+                    TOOLS
+                </a>
+            </li>
+            <li class="tab activenow">
+                <a href="/community">
+                    COMMUNITY
+                </a>
+            </li>
+        </ul>
+
+        <div id="login">
+            <div>
+                <a href=<%=logaction %>>
+                    <%= logprompt %>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <img src="/Images/Look Within-logos_transparent.png">
+        <h1>
+            Community
+        </h1>
+        <h3>
+            Discuss about various things with fellow users, and consult psychiatrists!
+        </h3>
+        <div id="arrow">
+            <a href="#about">
+                <img src="/Images/arrow.png">
+            </a>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about">
+        <!-- <div id="about-us">
+            <h3>
+                Oops! No community services available
+            </h3>
+            <br>
+            <br>
+            <br>
+            <h3 id="tools-head">
+                Soon on the platform
+            </h3>
+        </div> -->
+        <div id="cards">
+            <div class="card toolcard">
+                <a href="/discussions">
+                    <img src="/Images/community_discussions.jpg">
+                </a>
+                <a href="/discussions">
+                    <h2>Discussion channel</h2>
+                </a>
+                <a href="/discussions">
+                    <p>
+                        Have healthy conversations with fellow community members on various topics
+                    </p>
+                </a>
+            </div>
+            <div class="card toolcard">
+                <a href="/consultations">
+                <img src="/Images/psychiatrist.jpg">
+            </a>
+            <a href="/consultations">
+                <h2>Psychiatrist consultation</h2>
+            </a>
+            <a href="/consultations">
+                <p>
+                    Fix appointments with our psychiatrists and discuss your problems with them
+                </p>
+            </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div id="footer1">
+            <h5>CONTACT US</h5>
+            <p>
+                Office : A11-1A, North Campus, IIT Mandi, Kamand - 175005
+                <br>
+                Telephone : XXXXXXXXX
+                <br>
+                Email : XXXXXXXXXX
+            </p>
+        </div>
+        <div id="footer2">
+            <p>
+                Made By: <br>
+                &emsp; port_8080- <br>
+                &emsp;&emsp; Riya Arora <br>
+                <!-- &emsp;&emsp; Paras Bedi -->
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
