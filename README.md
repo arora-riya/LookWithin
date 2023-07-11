@@ -15,7 +15,7 @@
 
 - Resources Page:
   
-<img width="960" alt="Screenshot 2023-03-12 161059" src="https://github.com/arora-riya/LookWithin/assets/120731797/11e85031-0340-4123-8557-6066502d8f4d">
+  <img width="960" alt="Screenshot 2023-03-12 161059" src="https://github.com/arora-riya/LookWithin/assets/120731797/11e85031-0340-4123-8557-6066502d8f4d">
   
   <img width="960" alt="look2" src="https://github.com/arora-riya/LookWithin/assets/120731797/f7ba0c9b-7db2-475f-ba45-815c7c51adc7">
 
