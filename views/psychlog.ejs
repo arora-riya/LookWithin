@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Look Within | Discussions</title>
+    <link rel="icon" href="Images/favicon.png">
+    <link href="CSS/style.css" rel="stylesheet">
+    <link href="CSS/discussions.css" rel="stylesheet">
+    <link href="CSS/consultations.css" rel="stylesheet">
+    <link href="CSS/psychlog.css" rel="stylesheet">
+</head>
+
+<body>
+    <section id="discussions-header">
+        <a href="/discussions">
+            <img src="/Images/Look Within-logos_transparent.png">
+        </a>
+        <div id="header-text">
+            <h2>
+                Welcome Partner!
+            </h2>
+            <h3>
+                Thanks for volunteering your service! Please give us these details.
+            </h3>
+        </div>
+    </section>
+
+    <section id="just-for-data">
+        <%= psychdata %>
+    </section>
+
+    <section id="formcont">
+        <form action="/psychlog" method="post">
+            <div>
+            <label for="pname">Psychiatrist Name : </label>
+            
+                <input type="text" name="pname" id="pname">
+            </div>
+            <div>
+            <label for="cdate">Consultation Date : </label>
+            
+                <input type="date" name="cdate" id="cdate">
+            </div>
+            <div>
+            <label for="ctime">Consultation Time : </label>
+            
+                <select name="ctime" id="ctime">
+                    <option value="0800 - 0900">0800 - 0900</option>
+                    <option value="0900 - 1000">0900 - 1000</option>
+                    <option value="1000 - 1100">1000 - 1100</option>
+                    <option value="1100 - 1200">1100 - 1200</option>
+                    <option value="1200 - 1300">1200 - 1300</option>
+                    <option value="1300 - 1400">1300 - 1400</option>
+                    <option value="1400 - 1500">1400 - 1500</option>
+                    <option value="1500 - 1600">1500 - 1600</option>
+                    <option value="1600 - 1700">1600 - 1700</option>
+                    <option value="1700 - 1800">1700 - 1800</option>
+                </select>
+            </div>
+            <div>
+            <label for="cfield">Field : </label>
+            
+                <input type="text" name="cfield" id="cfield">
+            </div>
+            <div>
+            <input type="submit" value="Offer" class = "btn">
+            <input type="reset" value="Reset" class="btn">
+        </div>
+
+        </form>
+    </section>
+
+    <script src="JS/psychlog.js"></script>
+
+</body>
+
+</html>

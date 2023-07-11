@@ -1,0 +1,36 @@
+#discussions-header{
+    height: 20vh;
+    background: url(../Images/consultations_back.jpg) center center/cover no-repeat !important;
+    display: flex;
+}
+
+#consult-cont{
+    height: 77vh;
+    background-color: mintcream;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card2{
+    background-color: rgb(156, 199, 226);
+    border-radius: 10px;
+    width: 50%;
+    margin: 15px;
+    text-align: center;
+    padding: 15px;
+    border: 1px solid black;
+    cursor: pointer;
+    transition-property: background-color;
+}
+
+.card2:hover{
+    background-color: orange;
+}
+
+.card2 a{
+    color: black !important;
+    text-decoration: none;
+}

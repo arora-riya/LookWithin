@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Amatic+SC:wght@700&family=Barlow&family=Montserrat+Alternates:wght@300;400&family=Roboto:wght@500&family=Sofia+Sans:wght@300&display=swap');
+
+#just-for-data{
+    display: none;
+}
+
+#discussions-header{
+    height: 20vh;
+    background: url(../Images/psychlog_back.jpg) center center/cover no-repeat !important;
+    display: flex;
+}
+
+#formcont{
+    height: 80vh;
+    background-color: lavenderblush;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 1.3rem;
+}
+
+#formcont div{
+    margin: 7px;
+}
+
+.btn{
+    margin-top: 25px;
+    cursor: pointer;
+    background: none;
+    border: 1px solid black;
+    color: black;
+    font-family: 'Abel', sans-serif;
+    font-size: 1.3rem;
+    padding: 0.1rem;
+    transition-property: font-size;
+    /* margin-left: 0.8rem;
+    margin-right: 0.8rem; */
+    margin: auto;
+}

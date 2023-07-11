@@ -1,0 +1,465 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Amatic+SC:wght@700&family=Barlow&family=Montserrat+Alternates:wght@300;400&family=Roboto:wght@500&family=Sofia+Sans:wght@300&display=swap');
+
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.activenow a{
+    /* text-decoration: underline !important; */
+    font-weight: bolder!important;
+}
+
+/* Black Background */
+#header-for-bg::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -2;
+}
+
+/* NAVIGATION BAR */
+#navbar{
+    position: fixed;
+    width: 100%;
+
+    top:0;
+    left: 0;
+    z-index: 1;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: white;
+    opacity: 0.75;
+}
+
+/* Navigation Bar Logo */
+#logo img{
+    width : 6.5vw;
+    padding: 0.7vh 1vw;
+}
+
+/* Navigation Bar Tabs */
+#tabs{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width:25vw;
+    height: 100%;
+}
+
+#tabs a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.1rem;
+}
+
+#tabs a:hover{
+    text-shadow: 0.1rem 0.1rem rgb(193, 191, 191);
+}
+
+/* Navigation Bar Social Links */
+#login{
+    display: flex;
+    justify-content: space-around;
+    width: 10vw;
+    padding: 0.7vh 1vw;
+    color: black;
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.1rem;
+}
+
+#login a{
+    color: black !important;
+}
+
+#login a:hover{
+    text-shadow: 0.1rem 0.1rem rgb(193, 191, 191);
+}
+
+/* HOME SECTION */
+
+/* Picture Background */
+#home::before{
+    content: "";
+    background: url('../Images/main_page.webp') no-repeat center center/cover;
+    background-attachment: fixed;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+#home{
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+}
+
+#home img{
+    height: 30%;
+}
+
+#home h1{
+    font-family: 'Amatic SC', cursive;
+    font-size: 6rem;
+    margin-bottom: 1rem;
+}
+
+#home h3{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 100;
+    margin-bottom: 1.5rem;
+}
+
+#buttons{
+    display: flex;
+}
+
+#home button{
+    cursor: pointer;
+    background: none;
+    border: 1px solid white;
+    color: white;
+    font-family: 'Abel', sans-serif;
+    font-size: 1.3rem;
+    padding: 0.2rem;
+    transition-property: font-size;
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+
+}
+
+#home button:hover{
+    transform: scale(1.1);
+}
+
+/* ABOUT US SECTION */
+
+#about{
+    padding: 4.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* position: absolute;
+    top: 100vh;
+    left: 0; */
+    background: rgba(213, 216, 216, 0.644);
+    background-color: rgb(242, 246, 238);
+    box-sizing: border-box;
+}
+
+#about-us h3{
+    text-align: center;
+    margin-bottom: 1rem;
+    font-family:'Abel', sans-serif;
+    font-size: 2rem;
+    text-shadow: 1px 1px orange;
+}
+
+#about-us p{
+    margin-bottom: 3rem;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+#cards{
+    display: flex;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    margin: 2vw;
+    padding : 5vh 1vw;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(252, 157, 40, 0.783);
+    width: 30%;
+    box-shadow: 2px 2px 5px black;
+    transition-property: height;
+    cursor: pointer;
+
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.card a{
+    color: black !important;
+    text-decoration: none !important;
+}
+
+.card img{
+    height: 20vh;
+    width: 20vh;
+    border-radius: 100px;
+    padding : 5vh;
+}
+
+.card h2{
+    margin: 3px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+}
+
+.card p{
+    align-self: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+}
+
+/* #locations{
+    width: 100%;
+}
+
+#locations h4{
+    text-align: center;
+    margin-bottom: 1rem;
+    font-family:'Abel', sans-serif;
+    font-size: 2rem;
+    text-shadow: 1px 1px olivedrab;
+}
+
+#locations ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+} */
+
+/* GALLERY SECTION */
+
+/* #gallery::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 165vh;
+    left: 0;
+    width: 100%;
+    height: 150vh;
+    z-index: -2;
+}
+
+#img1::before{
+    content: "";
+    background: url('../Pics/gallery1.jpg') no-repeat center center/cover;
+    background-attachment: fixed;
+    position: absolute;
+    top: 165vh;
+    left: 0;
+    width: 100%;
+    height: 75vh;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+#img2::before{
+    content: "";
+    background: url('../Pics/gallery2.jpg') no-repeat center center/cover;
+    background-attachment: fixed;
+    position: absolute;
+    top: 240vh;
+    left: 0;
+    width: 100%;
+    height: 75vh;
+    z-index: -1;
+    opacity: 0.6;
+} */
+
+/* CLASSES SECTION */
+/* #classes-enroll{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 315vh;
+    left: 0;
+    background: rgba(213, 216, 216, 0.644);
+    height: 132vh;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#classes-enroll h3{
+    text-align: center;
+    margin-bottom: 0.5rem;
+    font-family:'Abel', sans-serif;
+    font-size: 2rem;
+    text-shadow: 1px 1px rgb(4 145 101);
+}
+
+#classes-enroll span{
+    margin-bottom: 1.5rem;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+#class-info{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+#class-info h5{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: 0.5rem;
+    text-shadow: 0.6px 0.6px rgb(191, 215, 12);
+}
+
+#class-info ul{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 400;
+    list-style: none;
+    text-align: center;
+}
+
+hr{
+    width: 75%;
+    margin: 3.5rem;
+    border-top: 0.1rem solid black;
+}
+
+#col{
+    text-shadow:1px 1px rgb(253, 121, 73) !important;
+}
+
+/* ENROLL-FORM */
+
+/* #enroll{
+    margin-top: 1rem;
+    /* height: 40%; */
+    /* width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#enroll div{
+    margin: 1rem 0;
+}
+
+.if{
+    background:none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    padding: 0.3rem;
+    font-size: 1rem;
+    font-family: sans-serif;
+}
+
+.if:focus{
+    outline: none;
+    border: 1px solid rgb(253, 121, 73) !important;
+    border-radius: 2px !important;
+}
+
+.if::placeholder{
+    font-family: sans-serif;
+}
+
+#div1{
+    display: flex;
+    justify-content: space-between;
+}
+
+#div1 input{
+    width: 45%;
+}
+
+#div2 input, #div3 textarea{
+    width: 100%;
+}
+
+#submit{
+    align-self: center;
+    color: white;
+    background-color: rgba(252, 113, 63, 0.795);
+    border-radius: 1rem;
+    border: none;
+    
+    font-family: 'Abel', sans-serif;
+    font-size: 1.3rem;
+    padding: 0.3rem 1rem;
+    margin-top: 1.5rem;
+
+    transition-property: font-size;
+    cursor: pointer;
+}
+
+#submit:hover{
+    transform: scale(1.1);
+    color: black;
+} */
+
+/* FOOTER SECTION */
+
+footer{
+    background-color: #343535c7;
+
+    color: rgba(245, 245, 245, 0.445);
+    font-family: 'Sofia Sans', sans-serif;;
+
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+
+    padding-top: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 1rem;
+}
+
+#footer1{
+    padding-right: 1rem;
+}
+
+#footer1 h5{
+    font-size: 1rem;
+    margin-bottom: 0.4rem;
+}
+
+#footer2{
+    padding-left: 1rem;
+    border-left: 1px solid rgba(245, 245, 245, 0.445);
+}
+

@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Amatic+SC:wght@700&family=Barlow&family=Montserrat+Alternates:wght@300;400&family=Roboto:wght@500&family=Sofia+Sans:wght@300&display=swap');
+
+#discussions-header{
+    height: 20vh;
+    background: url(../Images/discussions_back.jpg) center center/cover no-repeat;
+    display: flex;
+}
+
+#header-text{
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+#header-text h2{
+    font-family: 'Amatic SC', cursive;
+    font-size: 2rem;
+}
+
+#header-text h3{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 1rem;
+}
+
+#discussions-header img{
+    height: 80%;
+    filter: invert(100%);
+    margin-top: 10px;
+}
+
+#chats{
+    height: 77vh;
+    background-color: rgb(254, 254, 238);
+    padding: 10px;
+}
+
+#chats-cont{
+    border: 2px solid rosybrown;
+    border-radius: 5px;
+    height: 85%;
+    overflow-y: auto;
+}
+
+#sendbar{
+    height: 10%;
+}
+
+.container{
+    width: 95%;
+    border: 1px solid olivedrab;
+    border-radius: 13px;
+    margin: auto;
+    height: 57vh;
+    padding: 33px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+}
+
+/* Procured CSS */
+.message{
+    background-color: rgb(211, 204, 204);
+    width: 30%;
+    padding: 7px;
+    margin: 5px 5px;
+    border: 1px solid olivedrab;
+    font-family: 'Montserrat Alternates', sans-serif;;
+    border-radius: 10px;
+}
+.left{
+    float: left;
+    clear:both;
+}
+
+.right{
+    float: right;
+    clear:both;
+}
+
+.center{
+    margin: auto;
+    background-color: grey;
+    color:lightyellow;
+}
+
+#send-container{
+    display:block;
+    margin: auto;
+    text-align: center;
+    max-width: 1085px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#messageInp{
+    width: 100%;
+    border: 1px solid olivedrab;
+    background-color: rgb(84, 84, 84);
+    border-radius: 10px;
+    height: 30px;
+    font-size: 1rem;
+    color: lightyellow;
+    border: none;
+    font-family: 'Montserrat Alternates', sans-serif !important;
+    padding-left: 5px;
+}
+
+#messageInp:focus{
+    outline: none;
+}
+
+.btn{
+    cursor: pointer;
+    background: none;
+    border: 1px solid black;
+    color: black;
+    font-family: 'Abel', sans-serif;
+    font-size: 1rem;
+    padding: 0.1rem;
+    transition-property: font-size;
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}

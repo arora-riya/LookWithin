@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Amatic+SC:wght@700&family=Barlow&family=Montserrat+Alternates:wght@300;400&family=Roboto:wght@500&family=Sofia+Sans:wght@300&display=swap');
+
+#discussions-header{
+    height: 20vh;
+    background: url(../Images/consult_back.jpg) center center/cover no-repeat !important;
+    display: flex;
+}
+
+#just-for-data{
+    display: none;
+}
+
+#consult-cont{
+    min-height: 80vh;
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.consult-card{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+    background-color: darkseagreen;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+    
+}
+
+.consult-card div{
+    margin-bottom: 10px;
+}
+
+.btn{
+    margin-top: 25px;
+    cursor: pointer;
+    background: none;
+    border: 1px solid black;
+    color: black;
+    font-family: 'Abel', sans-serif;
+    font-size: 1.3rem;
+    padding: 0.1rem;
+    transition-property: font-size;
+    /* margin-left: 0.8rem;
+    margin-right: 0.8rem; */
+    margin: auto;
+}
