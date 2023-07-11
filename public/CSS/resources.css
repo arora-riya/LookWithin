@@ -1,0 +1,76 @@
+.resources{
+    padding: 4.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* position: absolute;
+    top: 100vh;
+    left: 0; */
+    background: rgba(213, 216, 216, 0.644);
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.resources-head h3{
+    text-align: center;
+    margin-bottom: 3rem;
+    font-family:'Abel', sans-serif;
+    font-size: 2rem;
+    text-shadow: 1px 1px orange;
+    width: 100%;
+}
+
+.resources-head p{
+    margin-bottom: 3rem;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.music-holder{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Videos Section */
+
+#videos{
+    background-color: mistyrose;
+}
+#video1 div{
+    margin-top: 0.7rem;
+    margin-bottom: 0.7rem;
+}
+
+/* Music Section */
+
+#music2{
+    background-color: mintcream;
+}
+
+.playlist-holder{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#home::before{
+    content: "";
+    background: url('../Images/resources_back.jpg') no-repeat center center/cover;
+    background-attachment: fixed;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+
+
