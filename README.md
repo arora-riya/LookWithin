@@ -12,13 +12,13 @@ Built this website for FrostHack'23 (Open Hackathon organized by Programming Clu
 - Home Page:
   
   <img width="948" alt="look1" src="https://github.com/arora-riya/LookWithin/assets/120731797/c94829a8-afca-4764-a990-3d73bd39aec3">
-  
+<br>
   <img width="960" alt="Screenshot 2023-03-12 161023" src="https://github.com/arora-riya/LookWithin/assets/120731797/dc2b5c32-f64d-4327-9e09-f6355c6bf613">
 
 - Resources Page:
   
   <img width="960" alt="Screenshot 2023-03-12 161059" src="https://github.com/arora-riya/LookWithin/assets/120731797/11e85031-0340-4123-8557-6066502d8f4d">
-  
+<br>
   <img width="960" alt="look2" src="https://github.com/arora-riya/LookWithin/assets/120731797/f7ba0c9b-7db2-475f-ba45-815c7c51adc7">
 
 - Live Discussions:
