@@ -1,4 +1,5 @@
 # Look Within - A WebApp Based Holistic Platform for Your Mental WellBeing!
+
 ## Features of the web-app:
 - Sign-up with email or use your google account.
 - Access mental wellbeing resources on the resources page.
@@ -28,11 +29,14 @@
   <img width="960" alt="Screenshot 2023-03-12 160830" src="https://github.com/arora-riya/LookWithin/assets/120731797/659f9f7d-0a8c-43db-88b8-dc30c225076f">
 
 ## To Run the Project:
-Requirements:
-- node.js
 
-- Open the project directory with terminal and run npm i to install the needed dependencies.
-- Run the command node app.js
+### Requirements:
+- node.js
+- MongoDB
+
+### Instructions:
+- Create a MongoDB database _lookwithin_.
+- Launch terminal inside of the project directory and run the command _node app.js_.
 (The website will now be running on port 3000).
 
 
