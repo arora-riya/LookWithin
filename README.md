@@ -1,4 +1,5 @@
 # Look Within - A WebApp Based Holistic Platform for Your Mental WellBeing!
+Built this website for FrostHack'23 (Open Hackathon organized by Programming Club, IIT Mandi) in a team of two.
 
 ## Features of the web-app:
 - Sign-up with email or use your google account.
