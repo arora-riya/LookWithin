@@ -14,7 +14,8 @@ Built this website for FrostHack'23 (Open Hackathon organized by Programming Clu
 - MongoDB
 
 #### Instructions:
-- Create a MongoDB database _lookwithin_.
+- Run the mongod database process.
+- Run the db_data.js file. This will create the database for the project, and add some psychiatrist entries to it. The psychiatrist-id from these entries can be used for psychiatrist-authentication while running the project. (The website prompts for psychiatrist id when you want to offer your services as a psychiatrist).
 - Launch terminal inside of the project directory and run the command _node app.js_.
 (The website will now be running on port 3000).
 
